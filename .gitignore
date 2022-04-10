@@ -119,11 +119,9 @@ fabric.properties
 docker-compose.yml
 
 ### Dev ###
+/docker-data
 /docker-data/*
 /docker/data/*
-/twake/docker-data/*
-/twake/docker-data
-/twake/backend/websockets_server/false
 
 ### Twake specific ###
 /build/
@@ -139,8 +137,4 @@ docker-compose.yml
 /tests/code_coverage/
 /web/detached/*
 /drive/*
-userreport.sh
-
-private
-
-log-workforce.sh
+/configuration
